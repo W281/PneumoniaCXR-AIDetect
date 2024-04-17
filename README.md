@@ -80,11 +80,8 @@ While the current model demonstrates strong performance, future developments cou
     │
     ├── reports
     │   ├── figures                                                     <- Generated figures for the analysis
-    │   ├── PneumoniaCXR-AIDetect_Presentation.pdf                      <- Generated figures for the analysis
-    │   ├── figures                                                     <- Generated figures for the analysis
-    │   ├── figures                                                     <- Generated figures for the analysis
-    │   ├── figures                                                     <- Generated figures for the analysis
-    │   └── final_report.ipynb                                          <- Final project report
+    │   ├── PneumoniaCXR-AIDetect_Presentation.pdf                      <- Final project presentation
+    │   └── PneumoniaCXR-AIDetect_Report.pdf                            <- Final project report
     │
     └── models                                                          <- Trained and serialized models, model predictions, and diagnostics
 
