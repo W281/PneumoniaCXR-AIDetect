@@ -59,7 +59,7 @@ While the current model demonstrates strong performance, future developments cou
 
 ## Contributors
 - Gary Kong: Feature Engineering, Data-preprocessing (Support), PCA (Support)
-- Drew Piispanen: Data Pre-processing
+- Drew Piispanen: Data Pre-processing (Lead)
 - Diqing Wu: PCA (Lead), Model Training and Evaluation
 
 ## Project Organization
