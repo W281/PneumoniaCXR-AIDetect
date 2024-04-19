@@ -15,7 +15,7 @@ This proof-of-concept project explores the use of advanced machine learning tech
 This project utilizes the COVID-QU-Ex Dataset, which contains over 30,000 chest X-ray images labeled as COVID-19 positive, non-COVID infections, and normal cases. Gold standard validation data is provided to benchmark the system's classification quality against expert radiological assessments.
 
 ### Source:
-- **COVID-QU-Ex Dataset**: Anas M. Tahir, Muhammad E. H. Chowdhury, Yazan Qiblawey, Amith Khandakar, Tawsifur Rahman, Serkan Kiranyaz, Uzair Khurshid, Nabil Ibtehaz, Sakib Mahmud, and Maymouna Ezeddin, “COVID-QU-Ex .” Kaggle, 2021, [DOI: 10.34740/kaggle/dsv/3122958](https://doi.org/10.34740/kaggle/dsv/3122958). [Dataset available on Kaggle](https://www.kaggle.com/datasets/anasmohammedtahir/covidqu).
+**COVID-QU-Ex Dataset**: Anas M. Tahir, Muhammad E. H. Chowdhury, Yazan Qiblawey, Amith Khandakar, Tawsifur Rahman, Serkan Kiranyaz, Uzair Khurshid, Nabil Ibtehaz, Sakib Mahmud, and Maymouna Ezeddin, “COVID-QU-Ex .” Kaggle, 2021, [DOI: 10.34740/kaggle/dsv/3122958](https://doi.org/10.34740/kaggle/dsv/3122958). [Dataset available on Kaggle](https://www.kaggle.com/datasets/anasmohammedtahir/covidqu).
 
 ## Methodology
 
@@ -43,25 +43,24 @@ The results confirm that the PneumoniaCXR system effectively classifies chest X-
 ## Usage
 
 To utilize this project:
-1. **Clone the repository** to your local machine.
-2. **Install the required dependencies** using `pip install -r requirements.txt`.
-3. **Run the Jupyter notebooks** in the `notebooks/` directory to conduct data preprocessing, perform feature extraction and selection, and build and evaluate machine learning models.
+1. **Set up your Google Colab environment** to work with Google Drive by mounting your Google Drive in the Colab notebook. This will allow you to access and save files directly to your Google Drive.
+2. **Clone the repository** into a specific folder within your Google Drive. This can be done using Git commands within a Colab notebook or by manually cloning the repository to your drive and then syncing with Google Drive.
+3. **Download the data** from [Google Drive](https://drive.google.com/drive/folders/1Q44uT-VRO5vdfUt8FB4HovXdvRvj8SBd?usp=sharing) and ensure it is placed within the same directory as your cloned repository in Google Drive.
+4. **Run the Jupyter notebooks** in the `notebooks/` directory from the cloned repository within Google Colab. All necessary dependencies are included in the notebooks and can be installed directly within Colab using `!pip install` commands.
 
-Note: Detailed instructions and code examples are provided in the Jupyter notebooks within the repository.
-
-## Future Work
-
-Further developments may include exploring additional imaging data sources for more robust classification, integrating more complex neural network architectures to enhance classification accuracy, and expanding the system customization options for different clinical settings.
-
+Note: Detailed instructions and code examples are provided in the Jupyter notebooks within the repository. Ensure that the notebook paths correspond to the locations of your files in Google Drive for seamless execution.
 
 ## Future Work
 
 While the current model demonstrates strong performance, future developments could include:
 - Cross-validating generalizability across different CXR platforms and exploring CXR machine-specific models to tailor the system further for different imaging technologies and settings.
 - Experimentation with additional model architectures and hybrid approaches to potentially enhance diagnostic accuracy.
-- Extending the dataset to include more diverse demographic and geographic data to improve model robustness and applicability in varied clinical environments.
+- Extending the dataset to include more diverse platform, demographic and geographic data to improve model robustness and applicability in varied clinical environments.
 
-## Project Organization
+## Contributors
+- Gary Kong: Feature Engineering, Data-preprocessing (Support), PCA (Support)
+- Drew Piispanen: Data Pre-processing
+- Diqing Wu: PCA (Lead), Model Training and Evaluation
 
 ## Project Organization
 
