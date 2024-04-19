@@ -68,20 +68,17 @@ While the current model demonstrates strong performance, future developments cou
     ├── README.md                                                       <- The top-level README for developers using this project
     ├── data
     │   ├── raw                                                         <- The original, immutable raw dataset
-    │   ├── preprocessed                                                <- Data after initial preprocessing (e.g., normalization, cropping)
+    │   ├── preprocessed                                                <- Data after initial preprocessing
     │   ├── features_extracted                                          <- Data after feature extraction and selection
     │   └── features_PCA                                                <- Data after dimensionality reduction (PCA applied)
     │
     ├── notebooks
-    │   ├── 1.0-eda_data_preprocessing.ipynb                            <- Notebook for preprocessing images (loading, Z-scale normalization, cropping)
-    │   ├── 2.0-feature_engineering.ipynb                               <- Notebook for HOG, radiomics and resnet feature extraction and dimensionality reduction
+    │   ├── 1.0-eda_data_preprocessing.ipynb                            <- Notebook for preprocessing images 
+    │   ├── 2.0-feature_engineering.ipynb                               <- Notebook for feature extraction, selection and PCA
     │   └── 3.0-modelling                                               <- Notebook for model training and evaluation
     │
-    ├── reports
-    │   ├── figures                                                     <- Generated figures for the analysis
-    │   ├── PneumoniaCXR-AIDetect_Presentation.pdf                      <- Final project presentation
-    │   └── PneumoniaCXR-AIDetect_Report.pdf                            <- Final project report
-    │
-    └── models                                                          <- Trained and serialized models, model predictions, and diagnostics
+    └── reports
+        ├── PneumoniaCXR-AIDetect_Presentation_vF.pdf                   <- Final project presentation
+        └── PneumoniaCXR-AIDetect_Report_vF.pdf                         <- Final project report
 
 Note: Due to file size limitations on GitHub, the dataset is hosted on Google Drive. Please download the data from the provided Google Drive link before running the notebooks.
